@@ -72,7 +72,7 @@
       var url;
       if (this.collection) {
         url = '/api/' + this.collection;
-        url = url.replace(/\/\/+/, '/');
+        url = url.replace(/\/\/+/, '/') + '/count';
         this.url = url;
       }
     },
